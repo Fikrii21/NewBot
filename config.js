@@ -1,9 +1,9 @@
 let fs = require('fs')
 global.DeveloperMode = 'false' //true atau false, true berati iya false berati tidak Moga paham
-global.linkGC = [] // link gc lu
+global.linkGC = [https://chat.whatsapp.com/KpS9eHNALBs3mXXJGtzuZE] // link gc lu
 global.channelYT = [] // link yt lu klo g ad g ush di isi
-global.owner = ['628818770766'] // masuk in no lu sebagai owner
-global.mods = ['6283897390164'] // masuk in no moderator ny
+global.owner = ['6281233738677'] // masuk in no lu sebagai owner
+global.mods = ['6281233738677'] // masuk in no moderator ny
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // ini buat premium
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -33,12 +33,12 @@ global.APIKeys = { // Apikey lu di sini
 
 // Sticker Watermark
 global.packname = 'NayLaBotz'
-global.author = 'Zevano'
+global.author = 'Fikrii Kyaa'
 
 global.multiplier = 36 // ini butuh berapa xp buat levelup 
 
 global.botwm = ['© nayla'] // watermark bot
-global.oname = ['Zevano'] // nama owner nya
+global.oname = ['Fikrii Kyaa'] // nama owner nya
 
 let chalk = require('chalk')
 let file = require.resolve(__filename)
